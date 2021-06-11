@@ -6,10 +6,11 @@ Application with GUI, operating on data from a SQL database exposed to Azure. Ob
 ## Interface
 #### First View
 <p>
-    <img src="https://user-images.githubusercontent.com/72083113/121687806-0ec29a00-cac3-11eb-8a8e-bb01621f98ca.png" />
+    <img src="https://user-images.githubusercontent.com/72083113/121703865-85679380-cad3-11eb-9702-239ec194f7db.png" />
     <br>
-    <em>Table filters data after clicking specific button. Objects can be deleted by ID</em>
+    <em>Table filters and displays data after clicking specific button. Objects can be deleted by ID. When table filled, there is possibilityy to export actually displayed data to excel file</em>
 </p>
+
 
 #### Add Animal View
 <p>
