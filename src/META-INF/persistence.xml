@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="ChippedAnimalsPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>chippedanimals.backend.ChippedAnimal</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://serverdl.database.windows.net:1433;databaseName=School;"/>
+      <property name="javax.persistence.jdbc.user" value="luniewska.d"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="zaq1@WSX"/>
+    </properties>
+  </persistence-unit>
+</persistence>
