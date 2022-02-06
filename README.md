@@ -1,9 +1,32 @@
 # ChippedAnimalsDatabase
+> It's an application for managing chipped cats and dogs
 
-## Description
-Application with GUI, operating on data from a SQL database exposed to Azure. Objects are transferred using the Java Persistence API (JPA) standard
 
-## Interface
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Features](#features)
+* [Status](#status)
+* [Sreenshots](#screenshots)
+* [Status](#status)
+
+## General info
+Application with GUI, operating on data from a SQL database exposed to Azure. Objects are transferred using the Java Persistence API (JPA) standard.
+
+## Technologies
+* Netbeans
+* Java
+* Azure database
+* Java Persistence API (JPA) standard
+
+## Features
+* Animals managment - CRUD operations for chipped animals
+* Filter results by genre
+* Export to Excel of the currently displayed data set
+* Animal's details are automatically populated after entering ID
+
+
+## Screenshots
 #### First View
 <p>
     <img src="https://user-images.githubusercontent.com/72083113/121703865-85679380-cad3-11eb-9702-239ec194f7db.png" />
@@ -32,8 +55,7 @@ Application with GUI, operating on data from a SQL database exposed to Azure. Ob
     <em>Application give annotations about invalid data at key release and clear all the fields.</em>
 </p>
 
-
-
-
+## Status
+Project is finished.
 
 
